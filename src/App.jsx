@@ -1,7 +1,12 @@
 import "./App.css";
+import CssBaseline from "@mui/material/CssBaseline";
 
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <CssBaseline />
+    </>
+  );
 };
 
 export default App;

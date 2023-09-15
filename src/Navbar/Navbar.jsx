@@ -1,5 +1,10 @@
+import Logo from "../assets/Logo.svg";
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <nav>
+      <img src={Logo} alt="Logo" />
+    </nav>
+  );
 };
 
 export default Navbar;
