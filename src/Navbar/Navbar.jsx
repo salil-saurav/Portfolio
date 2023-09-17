@@ -14,7 +14,7 @@ const Navbar = () => {
             <span className="logo-img">
               <img className="Logo" src={Logo} alt="Logo" />
             </span>
-            {/* <span className="logo-name">Salil Saurav</span> */}
+            <span className="logo-name">Salil Saurav</span>
           </div>
           <div className="nav-items">
             <ul>
@@ -34,7 +34,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="tel:7701990393">
                   <CallIcon />
                 </a>
               </li>
